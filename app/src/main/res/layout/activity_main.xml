@@ -9,29 +9,45 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@color/colorBackground"
     tools:context="com.thieumao.youtubewebview.MainActivity">
     <Button
         android:text="Watch Youtube"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="watchYoutube"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextButton"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/button_vertical_margin"
         android:id="@+id/watchYoutube" />
     <Button
         android:text="History"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="history"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextButton"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/button_vertical_margin"
         android:id="@+id/history" />
     <Button
         android:text="Sign Up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="signUp"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextButton"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/button_vertical_margin"
         android:id="@+id/signUp" />
     <Button
         android:text="Sign In"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="singIn"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextButton"
+        android:textStyle="bold"
         android:id="@+id/singIn" />
 </LinearLayout>
